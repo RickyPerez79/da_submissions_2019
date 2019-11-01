@@ -1,0 +1,17 @@
+For task 0 and task 2:
+
+Insert the address of the UART interrupt handler into the interrupt vector table. 
+- Open the startup_ccs.c file. Just below the prototype for _c_int00(void), 
+  add the UART interrupt handler prototype:  extern void UARTIntHandler(void); 
+  On about line 68, you’ll find the interrupt vector table entry for “UART0 Rx and Tx”. 
+  It’s just below the entry for “GPIO Port E”. The default interrupt handler is named IntDefaultHandler. 
+- Replace this name with UARTIntHandler so the line looks like: UARTIntHandler,  // UART0 Rx and Tx 
+
+
+For task 1:
+Insert the address of the Timer 1 subtimer A interrupt handler into the interrupt vector table.
+- Open the startup_ccs.c file. Just below the prototype for _c_int00(void), 
+  add the Timer 1 subtimer A interrupt handler prototype: extern void Timer1IntHandler(void);
+  On about line 68, you’ll find the interrupt vector table entry for "Timer 1 subtimer A".
+  It’s just below the entry for "Timer 1 subtimer B”. The default interrupt handler is named IntDefaultHandler. 
+- Replace this name with Timer1IntHandler so the line looks like: Timer1IntHandler // Timer 1 subtimer A
