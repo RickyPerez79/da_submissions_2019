@@ -1,0 +1,12 @@
+package.xdc
+package.xs
+package/xconfig_rtos_lab4.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b160
+package/.xdc-B06
+package/xconfig_rtos_lab4.java
+package/xconfig_rtos_lab4.class
+package/package_xconfig_rtos_lab4.c
+package/package.defs.h
+package/xconfig_rtos_lab4.ccs
