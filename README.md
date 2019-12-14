@@ -11,4 +11,4 @@ Completed Assignments:
 - Final Project
 
 Extra Credit:
-TivaC RTOS Labs 2,4-10
+- TivaC RTOS Labs 2,4-10
